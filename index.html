@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Snoutical</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/custom.css">
+</head>
+
+<body>
+
+
+    <!-- Navbar (sit on top) this currently hides the logo unless we add padding so maybe remove it and just do the non floating thing or make it transparent -->
+    <div class="w3-bar dont-drown-blue w3-wide w3-padding w3-card w3-text-white">
+        <a href="#home" class="w3-bar-item w3-button">Snoutical</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+            <a href="#games" class="w3-bar-item w3-button">Games</a>
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="w3-container dont-drown-blue" style="width:100%" id="home">
+        <div class="w3-center">
+            <img class="w3-image" src="./images/logos/Snoutical Logo Full without Background.png" alt="Snoutical">
+        </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+        <!-- Project Section -->
+        <div class="w3-container w3-padding-32" id="games">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Games</h3>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <a href="https://store.steampowered.com/app/2398370/Dont_Drown/?utm_source=snoutical">
+                    <img src="./dont_drown/images/Store_Capsule_Vertical.png" alt="Don't Drown"
+                        style="width:100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32" id="about">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+            <p>Snoutical is a single hobbyist developer studio at the moment. 
+            </p>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-center w3-padding-16 dont-drown-blue">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                class="w3-hover-text-white">w3.css</a></p>
+    </footer>
+</body>
+
+</html>
