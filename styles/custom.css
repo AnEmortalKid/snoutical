@@ -1,3 +1,18 @@
 .dont-drown-blue {
     background-color: #6d9aaf;
 }
+.dont-drown-black {
+    background-color: #232a36;
+}
+.dont-drown-dark-blue {
+    background-color: #597196;
+}
+
+.steam-indigo {
+    background-color: #1b2838;
+}
+
+/* remove the line after link pressed */
+.link-button-visited {
+    text-decoration: none;
+}
